@@ -19,6 +19,13 @@
             text-align: center;
         }
 
+        .card-link {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+        }
+
         .jam {
             margin: 0;
             padding: 0;
