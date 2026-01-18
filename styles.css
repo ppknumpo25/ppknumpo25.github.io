@@ -5,7 +5,7 @@
             font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0px;
-            background-color: #181C14;
+            background-color: #000712;
             height: 100%;
         }
 
@@ -24,7 +24,7 @@
         }
 
         .headerori {
-            background-color: #181C14;
+            background-color: #000712;
         }
 
         .realbody {
@@ -38,13 +38,13 @@
 
         .back {
             text-decoration: none;
-            color: #181C14;
+            color: #000712;
             font-size: 1.1em;
             display: ;
         }
 
         .bgr {
-            background-color: #2e3625;
+            background-color: #001945;
             height: 150px;
             padding: 30px;
         }
@@ -74,7 +74,7 @@
         }
 
         .ftr {
-            background-color: #181C14;
+            background-color: #000712;
         }
 
         .ftrtext {
@@ -101,7 +101,7 @@
 
         .btn1 {
             float: left;
-            background-color: #181C14;
+            background-color: #000712;
             border: 1px solid #FBFFF4;
             border-bottom: none;
             color: #FBFFF4;
@@ -122,7 +122,7 @@
         }
 
         .btn0 {
-            background-color: #181C14;
+            background-color: #000712;
             border: none;
             color: #FBFFF4;
             font-weight: bold;
@@ -172,6 +172,10 @@
 
         }
 
+        p {
+            text-align: justify;
+        }
+
         .soon .jam {
             border-bottom: 1px solid #423500;
             color: #423500;
@@ -202,9 +206,23 @@
             
         }
 
-        h2 {
+        h2, h3 {
             margin: 0;
             color: #262626;
+            padding: 2px;
+        }
+
+        .dp {
+            text-indent: -36px;
+            padding-left: 36px;
+        }
+
+        .arab {
+            text-align: right;
+            font-family: "Noto Naskh Arabic", serif;
+            font-optical-sizing: auto;
+            font-size: 18px;
+            font-style: normal;
         }
 
         .hr {
@@ -244,7 +262,7 @@
         .time-box .number {
             font-size: 1.8em;
             font-weight: bold;
-            color: #181C14;
+            color: #000712;
         }
         #hari {
             border-right: none;
@@ -309,7 +327,7 @@
                 display: block;
             }
             .btn0 {
-                background-color: #181C14;
+                background-color: #000712;
                 
                 color: #FBFFF4;
                 font-weight: bold;
@@ -326,7 +344,7 @@
             }
 
             .jdw {
-                margin-left: 5%;
-            margin-right: 5%;
+                margin-left: 15%;
+            margin-right: 15%;
             }
     }
