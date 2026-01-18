@@ -1,0 +1,332 @@
+        html {
+        }
+
+        body {
+            font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0px;
+            background-color: #181C14;
+            height: 100%;
+        }
+
+        .jam {
+            margin: 0;
+            padding: 0;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #919191;
+        }
+        .jampa {
+            margin: 0;
+        }
+
+        .titlediv {
+            margin-top: 5px;
+        }
+
+        .headerori {
+            background-color: #181C14;
+        }
+
+        .realbody {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: #FBFFF4;
+            border: 1px solid #090a07;
+            display: ;
+            height: 100%;
+        }
+
+        .back {
+            text-decoration: none;
+            color: #181C14;
+            font-size: 1.1em;
+            display: ;
+        }
+
+        .bgr {
+            background-color: #2e3625;
+            height: 150px;
+            padding: 30px;
+        }
+        .bgr-img {
+            height: 150px;
+            display: ;
+        }
+
+        .jdl {
+            background-color: #FBFFF4;
+            margin-left: 5%;
+            margin-right: 5%;
+            border: 1px solid;
+            display: ;
+            margin-top: -140px;
+            opacity: 1;
+        }
+
+        .jdl-a {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .jdw {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        .ftr {
+            background-color: #181C14;
+        }
+
+        .ftrtext {
+            color: #FBFFF4;
+            text-align: center;
+            margin: 0px;
+            padding: 5px;
+        }
+
+        .deskr {
+            text-align: center;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .btn {
+            margin-top: 20px;
+            display: grid;
+            width: 90%;
+            margin-right: 5%;
+            margin-left: 5%;
+
+        }
+
+        .btn1 {
+            float: left;
+            background-color: #181C14;
+            border: 1px solid #FBFFF4;
+            border-bottom: none;
+            color: #FBFFF4;
+            font-weight: bold;
+            padding: 15px;
+            font-size: 16px;
+            transition-duration: 0.1s;
+        }
+
+        #rwy {
+            border-bottom: 1px solid #FBFFF4;
+        }
+
+        .btn1:hover {
+            background-color: #090a07;
+            color: #FBFFF4;
+            border-color: #FBFFF4;
+        }
+
+        .btn0 {
+            background-color: #181C14;
+            border: none;
+            color: #FBFFF4;
+            font-weight: bold;
+            padding: 15px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            font-size: 1.2em;
+            transition-duration: 0.1s;
+        }
+
+        .btn0:hover {
+            color: #FBFFF4;
+            border-color: #FBFFF4;
+        }
+
+
+        #daftartugas {
+            border-color: #FBFFF4;
+            background-color: #090a07;
+        }
+        .task-card {
+            background-color: #FBFFF4;
+            padding: 20px;
+            display: block;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            border: 1px solid #919191;
+            transition: transform 0.2s;
+            width: 86%;
+
+        }
+
+        .task-card:hover {
+            transform: translateY(-10px);
+
+        }
+        .task-card.overdue {
+            border-color: #ffa8a8;
+            background-color: #fbecec;
+        }
+        .task-card.overdue:hover {
+
+        }
+        .task-card.soon {
+            border-color: #f1c40f;
+            background-color: #fff0b5;
+
+        }
+
+        .soon .jam {
+            border-bottom: 1px solid #423500;
+            color: #423500;
+        }
+        .task-card.soon:hover {
+        }
+        .soon .time-box {
+            background-color: #fae078;
+            border: 1px solid #f1c40f;
+            border-color: #f1c40f;
+        }
+        .soon .time-box .number {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+
+        .task-container-sen, .task-container-sel, .task-container-rab, .task-container-kam {
+            background-color: #f5f5f5;
+            border: 1px solid #919191;
+            padding: 20px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .task-container{
+            margin-top: 20px;
+            
+        }
+
+        h2 {
+            margin: 0;
+            color: #262626;
+        }
+
+        .hr {
+            padding: 20px;
+            padding-left: 0;
+            margin-left: 0;
+            padding-top: 0;
+        }
+
+        .soon h2 {
+            color: #423500;
+        }
+        p {
+            color: #656666;
+            font-size: 0.9em;
+        }
+        .soon p {
+            color: #423500;
+        }
+        .countdown {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            margin-bottom: 10px;
+            position: ;
+        }
+        .time-box {
+            border-radius: 0px;
+            width: 70px;
+            padding: 10px;
+            border: 1px solid #d4d4d4;
+            background-color: #ededed;
+            position: ;
+            margin-top: ;
+        }
+
+        .time-box .number {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #181C14;
+        }
+        #hari {
+            border-right: none;
+        }
+
+        #detik {
+            border-left: none;
+        }
+
+        #jam, #menit {
+        border-right: none;
+        border-left: none;
+        }
+    
+        .time-box .label {
+            font-size: 0.7em;
+            color: #697565;
+            text-transform: uppercase;
+        }
+        .soon .time-box .label {
+            color: #423500;
+        }
+        .message {
+            font-size: 1.5em;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+            background-color: #fccaca;
+            border: 1px solid #ffa8a8;
+        }
+
+        .overdue .jam {
+            border-bottom: 1px solid #656666;
+        }
+        .message.overdue-msg {
+            color: #e74c3c;
+        }
+        .message.completed-msg {
+            color: #27ae60;
+        }
+
+@media (min-width: 640px) {
+            .task-card, .task-card.soon, .task-card.overdue {
+                display: inline-table;
+                width: 362px;
+                height: 305px;
+                table-layout: auto;
+
+            }
+            .realbody {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            .jdl {
+                margin-left: 15%;
+                margin-right: 15%;
+            }
+            .hr {
+                border: none;
+            }
+            .btn {
+                display: block;
+            }
+            .btn0 {
+                background-color: #181C14;
+                
+                color: #FBFFF4;
+                font-weight: bold;
+                padding: 15px;
+                margin-top: 0px;
+                font-size: 1.2em;
+                transition-duration: 0.1s;
+            }
+
+            .btn1 {
+                float: right;
+                margin-right: 20px;
+                border: 1px solid #FBFFF4;
+            }
+
+            .jdw {
+                margin-left: 5%;
+            margin-right: 5%;
+            }
+    }
